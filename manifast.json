@@ -1,0 +1,36 @@
+
+  "name": "github-duration-extension",
+  "version": "1",
+  "manifest_version": 2,
+  "description": "show github commit duration in user profile page",
+  "homepage_url": "https://github.com/cokia/github-duration-extension",
+  "author": "cokia",
+  "icons": {
+    "128": "icons/128.png"
+  },
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "background" : {
+    "scripts" : [
+      "src/background.js"
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://github.com/*"
+      ],
+      "js": [
+        "src/inject.js"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "browser_action": {
+    "default_icon": {
+    "128": "icons/128.png"
+    }
+  }
+}
