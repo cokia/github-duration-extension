@@ -1,0 +1,25 @@
+{
+  "name": "github-duration-extension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "zip": "bestzip extension.zip src/ icons/ manifest.json LICENSE.md",
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cokia/github-duration-extension.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cokia/github-duration-extension/issues"
+  },
+  "homepage": "https://github.com/cokia/github-duration-extension#readme",
+  "devDependencies": {
+    "bestzip": "^2.1.4",
+    "standard": "^12.0.1"
+  }
+}
