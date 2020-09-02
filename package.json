@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/cokia/github-duration-extension#readme",
   "devDependencies": {
-    "bestzip": "^2.1.4",
+    "bestzip": "^2.1.7",
     "standard": "^12.0.1"
   }
 }
